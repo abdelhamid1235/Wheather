@@ -72,6 +72,7 @@ let hero = document.querySelector(".hero");
 
 setInterval(() => {
     let random = Math.floor(Math.random() * arrImg.length);
-    hero.style.backgroundImage = `url(../image/${arrImg[random]})`;
+    hero.style.backgroundImage = `url(./image/${arrImg[random]})`;
 }, 2000);
+
 
