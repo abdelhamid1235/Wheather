@@ -31,7 +31,7 @@ async function StartApp(city ="cairo"){
 }
 StartApp();
 async function getWheater(city){
-    var wheaterResponse =await fetch(`http://api.weatherapi.com/v1/forecast.json?key=b98d3b104bbd400586c72719260202&q=${city}&days=7`);
+    var wheaterResponse =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b98d3b104bbd400586c72719260202&q=${city}&days=7`);
     var WheatherDate = await wheaterResponse.json();
     return WheatherDate;
 }
@@ -74,3 +74,4 @@ setInterval(() => {
     let random = Math.floor(Math.random() * arrImg.length);
     hero.style.backgroundImage = `url(../image/${arrImg[random]})`;
 }, 2000);
+
