@@ -8,11 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Live-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-A responsive Weather Forecast web application that displays real-time weather data and a 7-day forecast using an external weather API.
-
-🔗 **Live Demo:**  
-https://abdelhamid1235.github.io/Weather
-
+A responsive Weather Forecast web application that displays real-time weather data and a 3-day forecast using an external weather API.
 ---
 
 ## 📌 Project Overview
@@ -78,3 +74,8 @@ The application fetches live weather data from WeatherAPI.
 
 **Abdelhamid Sarhan**  
 Front-End Developer  
+
+---
+
+🔗 **Live Demo:**  
+https://abdelhamid1235.github.io/Weather
