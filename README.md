@@ -11,7 +11,7 @@
 A responsive Weather Forecast web application that displays real-time weather data and a 7-day forecast using an external weather API.
 
 🔗 **Live Demo:**  
-https://abdelhamid1235.github.io/Wheather/
+https://abdelhamid1235.github.io/Weather
 
 ---
 
